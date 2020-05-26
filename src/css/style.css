@@ -6,6 +6,12 @@ body {
   header {
     background: #eaeaea;
   }
+
+  .logoNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   
   .container {
     display: flex;
@@ -39,9 +45,6 @@ body {
   
   .nav-toggle {
     display: none;
-    position: absolute;
-    right: 1rem;
-    top: 1.5rem;
     cursor: pointer;
   }
   
@@ -68,6 +71,10 @@ body {
     .container {
       flex-direction: column;
       align-items: flex-start;
+    }
+
+    .logoNav {
+      width: 100%;
     }
   
     nav {
